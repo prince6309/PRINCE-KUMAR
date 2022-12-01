@@ -1,0 +1,11 @@
+Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a=n%10;
+        int q=n-a;
+        int b=q/10;
+        int w=b%10;
+        int r=b-w;
+        int t=r/10;
+        System.out.println(a);
+        System.out.println(w);
+        System.out.println(t);
