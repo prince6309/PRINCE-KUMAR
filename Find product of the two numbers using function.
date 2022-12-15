@@ -1,0 +1,13 @@
+public class Solution {
+    public static void findProduct(int x, int y){
+            int a=x*y;
+            System.out.println(a);
+        }
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        findProduct(x, y);
