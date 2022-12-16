@@ -1,0 +1,12 @@
+    Scanner sc = new Scanner(System.in);
+        int n= sc.nextInt();
+        int divisor =2;
+        while(n>1){
+            if(n%divisor==0){
+                System.out.println(divisor);
+            while(n%divisor==0){
+                n/=divisor;
+            }
+        }
+        divisor++;
+        }
